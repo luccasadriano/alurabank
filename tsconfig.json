@@ -3,7 +3,8 @@
       "target": "ES6",
       "outDir": "app/js",
       "noEmitOnError": true,
-      "noImplicitAny": true//Para aplicação do zero utilizando TypeScript é bom deixar true, caso for um sistema legado não utilizar o "noImplicitAny"
+      "noImplicitAny": true,//Para aplicação do zero utilizando TypeScript é bom deixar true, caso for um sistema legado não utilizar o "noImplicitAny"
+      "removeComments": true
    },
    "include": [
       "app/ts/**/*"
